@@ -24,6 +24,14 @@ namespace Ejercicio_1_POO
             //Mostrar resultado
             Console.WriteLine("Variable1={0}, Variable2={1}, resultado={2}", Variable1, Variable2, Resultado); 
         }
+        public void Divicion()
+        {
+            Resultado = Variable1 / Variable2;
+        }
+        public void Multiplicacion()
+        {
+            Resultado = Variable1 * Variable2;
+        }
     }
 
 }

@@ -19,12 +19,18 @@ namespace Ejercicio_1_POO
             //Se suman las variables
             calculadora.Suma();
             calculadora.Mostrar();
-            //Nuevo objeto misma clase
+            //Nuevo objeto misma clase. Este divide
             Calculadora calculadora2 = new Calculadora();
             calculadora2.Variable1 = 69;
-            calculadora2.Variable2 = 54154;
-            calculadora2.Suma();
+            calculadora2.Variable2 = 54;
+            calculadora2.Divicion();
             calculadora2.Mostrar();
+            //Este multiplica
+            Calculadora calculadora3 = new Calculadora();
+            calculadora3.Variable1 = 7;
+            calculadora3.Variable2 = 5;
+            calculadora3.Divicion();
+            calculadora3.Mostrar();
 
             Console.ReadLine();
         }
